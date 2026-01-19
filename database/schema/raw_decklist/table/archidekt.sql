@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS raw_decklist.archidekt (
+	quantity INT, 
+    card_name VARCHAR(255), 
+    edition_name VARCHAR(255),
+    edition_code VARCHAR(255),
+    category VARCHAR(255), 
+    secondary_categories VARCHAR(255),
+    label VARCHAR(255),
+    modifier VARCHAR(255), 
+    collector_number INT,
+    salt FLOAT,
+    color VARCHAR(255),
+    cmc INT,
+    rarity VARCHAR(255),
+    scryfall_ID VARCHAR(255),
+    types VARCHAR(255),
+    price FLOAT,
+    collection_status VARCHAR(255),
+    card_text VARCHAR(255)
+);
